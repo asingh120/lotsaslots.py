@@ -25,7 +25,7 @@ class Slots(EasyFrame):
 		self.third = self.addIntegerField(value = 0, row = 1, column = 2, rowspan = 2, width = 100)
 
 		self.main = self.addLabel(text = "Let's Make Some Magic Baby", row = 3, column = 0, columnspan = 3, sticky = "NSEW", background = 'powderblue', font = ("Arial Black", 20))
-		self.button = self.addButton(text = "Spin That Shit", row = 4, column = 0, columnspan = 4, command = self.spin)
+		self.button = self.addButton(text = "Spin It", row = 4, column = 0, columnspan = 4, command = self.spin)
 		self.lose = self.addLabel(text = "Total Points", row = 5, column = 0, columnspan = 2, sticky = "NSEW", background = 'powderblue', font = ("Helvetica", 14, 'bold'))
 		self.fourth = self.addIntegerField(value = 100, row = 5, column = 1, columnspan = 2)
 		self.addLabel(text = "", row = 6, column =0, columnspan = 4, sticky = "NSEW", background = 'powderblue')
